@@ -1,4 +1,4 @@
-FROM ghcr.io/tinfoilanalytics/nitro-attestation-shim:v0.2.1 AS shim
+FROM ghcr.io/tinfoilanalytics/nitro-attestation-shim:v0.2.2 AS shim
 
 FROM golang:1.23.3 AS build
 
